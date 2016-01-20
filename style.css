@@ -430,6 +430,7 @@ p.site-description {
     -webkit-box-shadow: inset -4px -4px 0px 0px #E7E7E7;
     -moz-box-shadow: inset -4px -4px 0px 0px #E7E7E7;
     box-shadow: inset -4px -4px 0px 0px #E7E7E7;
+    border-left: none !important;
 }
 .timeline-box-wrap:hover {
 	-webkit-box-shadow: inset -4px -4px 0px 0px #4CAF50;

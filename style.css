@@ -579,6 +579,16 @@ p.site-description {
 .post-img-wrap {
 	float: left;
 }
+.post-img-wrap a {
+	width: 340px;
+	float: left;
+	height: 340px;
+	overflow: hidden;
+}
+.post-img-wrap img {
+	min-height: 340px;
+	min-width: 340px;
+}
 .list-post-entry-meta {
     float: left;
     width: auto;
@@ -710,6 +720,14 @@ p.site-description {
     	color: #FF6822;
     	z-index: 1;
 	}
+	.post-list .entry-header-inner-wrap {
+		width: 100%;
+		height: auto;
+		padding: 25px 0 0;
+		text-align: left;
+	}
+
+
 }
 
 

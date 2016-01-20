@@ -10,8 +10,8 @@ function one_edge_enqueue_styles() {
 function one_edge_setup() {
 
 	/* Set the image size by cropping the image */
-	add_image_size( 'parallax-one-post-thumbnail-big', 340, 340, true );
-	add_image_size( 'parallax-one-post-thumbnail-mobile', 233, 233, true );
+	add_image_size( 'llorix-one-post-thumbnail-big', 340, 340, true );
+	add_image_size( 'llorix-one-post-thumbnail-mobile', 233, 233, true );
 
 }
 add_action( 'after_setup_theme', 'one_edge_setup', 11 );

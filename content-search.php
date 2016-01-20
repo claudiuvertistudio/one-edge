@@ -19,8 +19,8 @@
 					?>
 						<?php 
 							$image_id = get_post_thumbnail_id();
-							$image_url_big = wp_get_attachment_image_src($image_id,'parallax-one-post-thumbnail-big', true);
-							$image_url_mobile = wp_get_attachment_image_src($image_id,'parallax-one-post-thumbnail-mobile', true);
+							$image_url_big = wp_get_attachment_image_src($image_id,'llorix-one-post-thumbnail-big', true);
+							$image_url_mobile = wp_get_attachment_image_src($image_id,'llorix-one-post-thumbnail-mobile', true);
 						?>
 				 		<picture itemscope itemprop="image">
 							<source media="(max-width: 600px)" srcset="<?php echo esc_url($image_url_mobile[0]); ?>">
@@ -30,8 +30,8 @@
 						} else {
 					?>
 				 		<picture itemscope itemprop="image">
-							<source media="(max-width: 600px)" srcset="<?php echo parallax_get_file('/images/no-thumbnail-mobile.jpg');?> ">
-							<img src="<?php echo parallax_get_file('/images/no-thumbnail.jpg'); ?>" alt="<?php the_title_attribute(); ?>">
+							<source media="(max-width: 600px)" srcset="<?php echo llorix_one_get_file('/images/no-thumbnail-mobile.jpg');?> ">
+							<img src="<?php echo llorix_one_get_file('/images/no-thumbnail.jpg'); ?>" alt="<?php the_title_attribute(); ?>">
 						</picture>
 					<?php } ?>
 
@@ -55,7 +55,7 @@
 					</span>
 				</span>
 				<span class="posted-in entry-terms-categories" itemprop="articleSection">
-					<i class="icon-basic-elaboration-folder-check"></i>Posted in 
+					<i class="icon-basic-elaboration-folder-check"></i><?php esc_html_e('Posted in ', 'one-edge') ?> 
 					<?php
 						/* translators: used between list items, there is a space after the comma */
 						$categories_list = get_the_category_list( esc_html__( ', ', 'one-edge' ) );

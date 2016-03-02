@@ -1,5 +1,5 @@
 # one-edge
-child theme for llorix one
+child theme for Llorix One Lite
 
 One Edge WordPress Theme, Copyright 2015 Themeisle
 One Edge is distributed under the terms of the GNU GPL

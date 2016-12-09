@@ -18,6 +18,17 @@ along with this program.
 
 One Edge WordPress Theme bundles the following third-party resources:
 
-	License: All unsplash.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/
+	License:
+	    All unsplash.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/
+        All pixabay.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/
+        All pexels.com images are licensed under the terms of the Creative Commons Zero, http://creativecommons.org/publicdomain/zero/1.0/
 
-	* Source of background.jpgimage: https://images.unsplash.com/photo-1438109519352-a52c41243c1a?ixlib=rb-0.3.5&q=80&fm=jpg&s=646e40275b2074f4f81889168c9a8dde
+	* Source of background.jpgimage: https://unsplash.com/photos/jtyIeXi1Goc
+
+    Screenshot images:
+
+        https://unsplash.com/photos/jtyIeXi1Goc
+        https://unsplash.com/photos/aSlReZyUt4c
+        https://www.pexels.com/photo/woman-wearing-black-top-27949/
+        https://pixabay.com/ro/persoana-femeie-asiatic-feminin-801823/
+
